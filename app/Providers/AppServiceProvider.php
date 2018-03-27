@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Providers;
-
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 use View;
 use App\Channel;
@@ -17,6 +17,7 @@ class AppServiceProvider extends ServiceProvider
     {
          Schema::defaultStringLength(191);
          View::share('channels', Channel::all());
+
     }
 
     /**

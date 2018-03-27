@@ -21,7 +21,7 @@ return [
         'github' => [
             'client_id' => '33c661d066aa78a1c703',
             'client_secret' => '27d6059b1f21093bc349f9ff34a3576908439fce',
-            'redirect_uri' => 'https://forum.antariprince/github/redirect',
+            'redirect_uri' => 'https://forum.antariprince.com/github/redirect',
             'scope' => [],
         ],
         'linkedin' => [
