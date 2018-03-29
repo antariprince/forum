@@ -19,9 +19,9 @@ return [
             'scope' => [],
         ],
         'github' => [
-            'client_id' => env('FACEBOOK_APP_ID'),
-            'client_secret' => env('FACEBOOK_APP_SECRET'),
-            'redirect_uri' => env('FACEBOOK_APP_REDIRECT'),
+            'client_id' => env('GIT_APP_ID'),
+            'client_secret' => env('GIT_APP_SECRET'),
+            'redirect_uri' => env('GIT_APP_REDIRECT'),
             'scope' => [],
         ],
         'linkedin' => [
