@@ -13,7 +13,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background: #313131 url(../images/bg5.jpg) no-repeat center;
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
@@ -50,9 +50,9 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: #14425C;
                 padding: 0 25px;
-                font-size: 12px;
+                font-size: 16px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -69,12 +69,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <a href="{{ route('forum') }}" style="text-decoration: none; color: black;">Udemy course forum</a>
+                    <a href="{{ route('forum') }}" style="text-decoration: none; color: black;">Simple Forum Demo</a>
                 </div>
 
                 <div class="links">
                     <a href="{{ route('social.auth', ['provider' => 'github']) }}">GitHub</a>
-                    <a href="{{ route('social.auth', ['provider' => 'facebook']) }}">GitHub</a>
                     <a href="{{ route('login') }}">Email</a>
                 </div>
             </div>
