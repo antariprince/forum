@@ -19,9 +19,9 @@ return [
             'scope' => [],
         ],
         'github' => [
-            'client_id' => '33c661d066aa78a1c703',
-            'client_secret' => '27d6059b1f21093bc349f9ff34a3576908439fce',
-            'redirect_uri' => 'https://forum.antariprince.com/github/redirect',
+            'client_id' => env('FACEBOOK_APP_ID'),
+            'client_secret' => env('FACEBOOK_APP_SECRET'),
+            'redirect_uri' => env('FACEBOOK_APP_REDIRECT'),
             'scope' => [],
         ],
         'linkedin' => [
