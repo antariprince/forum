@@ -14,7 +14,7 @@ class UserstableSeeder extends Seeder
         App\User::create([
         	'name' => 'admin',
         	'password' => bcrypt('admin'),
-        	'email' => 'admin@udemy-forum.dev',
+        	'email' => 'admin@gmail.com',
         	'admin' => 1,
         	'avatar' => asset('uploads/avatars/screenshot.jpg')
         ]);
