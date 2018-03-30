@@ -74,7 +74,6 @@
 
                 <div class="links">
                     <a href="{{ route('social.auth', ['provider' => 'github']) }}">GitHub</a>
-                    <a href="{{ route('login') }}">Email</a>
                 </div>
             </div>
         </div>
